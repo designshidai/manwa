@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>页面不存在 · 漫蛙地址发布页</title>
+<meta name="robots" content="noindex,follow" />
+<meta name="theme-color" content="#12141A" />
+<link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+<style>
+:root{--ink:#12141A;--frog:#20C997;--text:#F2F4F8;--text-2:#AEB4C2;--text-3:#7C8494;
+  --line:rgba(255,255,255,.08);--font:"PingFang SC","Microsoft YaHei",system-ui,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font);background:var(--ink);color:var(--text);line-height:1.65;
+  min-height:100vh;display:grid;place-items:center;padding:24px;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;
+  background:radial-gradient(80% 50% at 50% 0%,rgba(32,201,151,.12),transparent 70%)}
+.box{position:relative;text-align:center;max-width:440px}
+.code{font-size:64px;font-weight:800;color:var(--frog);letter-spacing:-2px;line-height:1}
+h1{font-size:21px;font-weight:800;margin:16px 0 8px}
+p{color:var(--text-2);font-size:14px;margin-bottom:26px}
+.btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+a{display:inline-flex;align-items:center;padding:12px 22px;border-radius:12px;font-weight:700;
+  font-size:14.5px;text-decoration:none;transition:transform .18s,box-shadow .18s}
+.p{background:var(--frog);color:#06140F}
+.p:hover{transform:translateY(-2px);box-shadow:0 14px 28px -10px var(--frog)}
+.g{background:rgba(255,255,255,.04);color:var(--text);border:1px solid var(--line)}
+.g:hover{background:rgba(255,255,255,.08);transform:translateY(-2px)}
+.f{margin-top:28px;font-size:12px;color:var(--text-3)}
+</style>
+</head>
+<body>
+<div class="box">
+  <div class="code">404</div>
+  <h1>这个页面不存在</h1>
+  <p>地址可能打错了一个字符，或者这个页面已经下线。<br />回到发布页可以核对当前有效入口。</p>
+  <div class="btns">
+    <a class="p" href="https://designshidai.github.io/manwa/">回到发布页</a>
+    <a class="g" href="https://manwa.click/">前往漫蛙主站</a>
+  </div>
+  <div class="f">官方入口固定为 manwa.click，不按月更换。</div>
+</div>
+</body>
+</html>

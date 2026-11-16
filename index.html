@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>漫蛙最新网址 · 地址发布页 | 漫蛙 MANWA</title>
+<meta name="description" content="漫蛙 MANWA 地址发布页，最新网址 https://manwa.click/ 。官方入口固定不按月更换，本页用于收藏防走失，附网页版、APP 下载、打不开排查等直达入口与仿冒站辨别要点。" />
+<meta name="robots" content="noindex,follow" />
+<meta name="theme-color" content="#12141A" />
+<link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="漫蛙最新网址 · 地址发布页" />
+<meta property="og:description" content="官方入口固定为 https://manwa.click/ ，不按月更换。本页用于收藏防走失。" />
+<meta property="og:image" content="assets/logo.png" />
+<meta property="og:locale" content="zh_CN" />
+<meta name="twitter:card" content="summary" />
+<style>
+:root{
+  --ink:#12141A; --ink-2:#1A1D26; --ink-3:#232733;
+  --line:rgba(255,255,255,.08);
+  --frog:#20C997; --frog-deep:#15A87C; --coral:#FF5D6C;
+  --text:#F2F4F8; --text-2:#AEB4C2; --text-3:#7C8494;
+  --r-lg:22px; --r-md:16px; --r-sm:12px;
+  --shadow:0 20px 50px -20px rgba(0,0,0,.7);
+  --maxw:920px;
+  --font:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",system-ui,-apple-system,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{color-scheme:dark;scroll-behavior:smooth}
+body{font-family:var(--font);background:var(--ink);color:var(--text);line-height:1.65;
+  -webkit-font-smoothing:antialiased;min-height:100vh}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
+  background:radial-gradient(90% 55% at 50% -10%,rgba(32,201,151,.13),transparent 70%)}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 22px;position:relative;z-index:1}
+
+/* 顶部 */
+.top{padding:26px 0 0}
+.top-in{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.brand{display:flex;align-items:center;gap:11px}
+.brand img{height:38px;width:auto;display:block;border-radius:9px}
+.brand .name{font-size:18px;font-weight:800;letter-spacing:.4px;line-height:1.25}
+.brand .name small{display:block;font-size:10.5px;font-weight:500;color:var(--text-3);letter-spacing:1.8px}
+.pill{display:inline-flex;align-items:center;gap:7px;font-size:12.5px;font-weight:600;
+  color:var(--frog);background:rgba(32,201,151,.1);border:1px solid rgba(32,201,151,.28);
+  padding:6px 12px;border-radius:999px;white-space:nowrap}
+.pill .dot{width:6px;height:6px;border-radius:50%;background:var(--frog);
+  box-shadow:0 0 0 3px rgba(32,201,151,.18)}
+
+/* Hero */
+.hero{padding:52px 0 8px;text-align:center}
+.hero h1{font-size:clamp(28px,6.2vw,40px);font-weight:800;letter-spacing:-.6px;line-height:1.22;
+  text-wrap:balance}
+.hero p.sub{margin:14px auto 0;max-width:560px;color:var(--text-2);font-size:15px}
+
+/* 主地址卡 */
+.addr{margin:30px 0 0;background:linear-gradient(150deg,#0E1A16 0%,#171420 100%);
+  border:1px solid rgba(32,201,151,.28);border-radius:var(--r-lg);padding:26px 24px;
+  box-shadow:var(--shadow);position:relative;overflow:hidden}
+.addr::after{content:"";position:absolute;width:220px;height:220px;right:-80px;top:-90px;
+  background:radial-gradient(circle,rgba(32,201,151,.22),transparent 68%);pointer-events:none}
+.addr .k{font-size:12px;letter-spacing:2.4px;color:var(--text-3);font-weight:700;text-transform:uppercase}
+.addr .url{margin:8px 0 4px;font-size:clamp(22px,5.4vw,32px);font-weight:800;color:var(--frog);
+  letter-spacing:-.4px;word-break:break-all;line-height:1.25}
+.addr .meta{color:var(--text-3);font-size:12.5px}
+.addr-btns{display:flex;gap:12px;margin-top:20px;flex-wrap:wrap;justify-content:center}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:13px;
+  font-weight:700;font-size:15px;border:1px solid transparent;cursor:pointer;
+  font-family:inherit;transition:transform .18s,box-shadow .18s,background .18s}
+.btn-primary{background:var(--frog);color:#06140F}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 14px 28px -10px var(--frog)}
+.btn-ghost{background:rgba(255,255,255,.04);color:var(--text);border-color:var(--line)}
+.btn-ghost:hover{background:rgba(255,255,255,.08);transform:translateY(-2px)}
+.btn svg{width:17px;height:17px;stroke:currentColor;fill:none;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round}
+.btn.copied{background:var(--frog-deep);color:#fff}
+
+/* 提示条 */
+.note{display:flex;gap:12px;align-items:flex-start;background:var(--ink-2);
+  border:1px solid var(--line);border-left:3px solid var(--frog);border-radius:var(--r-sm);
+  padding:14px 18px;margin:22px 0 0;font-size:14px;color:var(--text-2);text-align:left}
+.note svg{width:18px;height:18px;flex:0 0 18px;margin-top:2px;stroke:var(--frog);fill:none;stroke-width:2}
+.note b{color:var(--text)}
+.note.warn{border-left-color:var(--coral)}
+.note.warn svg{stroke:var(--coral)}
+
+/* 区块 */
+.sec{padding:44px 0 0}
+.sec-head{margin-bottom:20px}
+.sec-head h2{font-size:20px;font-weight:800;letter-spacing:-.3px;display:flex;align-items:center;gap:10px}
+.sec-head h2 .bar{width:4px;height:18px;border-radius:2px;background:var(--frog);flex:0 0 4px}
+.sec-head p{color:var(--text-3);font-size:13.5px;margin-top:6px}
+
+/* 直达入口 */
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.card{display:flex;align-items:center;gap:13px;background:var(--ink-2);border:1px solid var(--line);
+  border-radius:var(--r-md);padding:15px 17px;transition:border-color .2s,transform .2s,background .2s}
+.card:hover{border-color:rgba(32,201,151,.5);transform:translateY(-2px);background:var(--ink-3)}
+.card .ic{flex:0 0 38px;height:38px;border-radius:11px;background:rgba(32,201,151,.11);
+  display:grid;place-items:center}
+.card .ic svg{width:19px;height:19px;stroke:var(--frog);fill:none;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round}
+.card .tx b{display:block;font-size:14.5px;font-weight:700;line-height:1.35}
+.card .tx span{display:block;font-size:12px;color:var(--text-3);margin-top:1px}
+.card .arrow{margin-left:auto;color:var(--text-3);font-size:15px;transition:color .2s,transform .2s}
+.card:hover .arrow{color:var(--frog);transform:translateX(3px)}
+
+/* 编号步骤 */
+.steps{display:flex;flex-direction:column;gap:10px;counter-reset:s}
+.step{display:flex;gap:14px;background:var(--ink-2);border:1px solid var(--line);
+  border-radius:var(--r-md);padding:15px 18px}
+.step .no{counter-increment:s;flex:0 0 26px;height:26px;border-radius:9px;
+  background:rgba(32,201,151,.13);color:var(--frog);display:grid;place-items:center;
+  font-weight:800;font-size:13px;margin-top:1px}
+.step .no::before{content:counter(s)}
+.step > div > b{display:block;font-size:14.5px;margin-bottom:2px}
+.step p{font-size:13.5px;color:var(--text-2)}
+.step p b{color:var(--text);font-weight:700}
+
+/* 对比表 */
+.tbl{border:1px solid var(--line);border-radius:var(--r-md);overflow:hidden}
+.tbl table{width:100%;border-collapse:collapse}
+.tbl th,.tbl td{padding:12px 16px;font-size:13.5px;text-align:left;border-bottom:1px solid var(--line);
+  vertical-align:top}
+.tbl th{background:var(--ink-3);font-weight:700;font-size:13px;color:var(--text)}
+.tbl td{color:var(--text-2)}
+.tbl td:first-child{color:var(--text);font-weight:600;white-space:nowrap}
+.tbl tr:last-child td{border-bottom:none}
+.tbl .ok{color:var(--frog);font-weight:700}
+.tbl .no2{color:var(--coral);font-weight:700}
+
+/* FAQ */
+.faq{display:flex;flex-direction:column;gap:10px}
+details{background:var(--ink-2);border:1px solid var(--line);border-radius:var(--r-md);
+  padding:0 18px;overflow:hidden}
+details[open]{border-color:rgba(32,201,151,.32)}
+summary{cursor:pointer;padding:15px 0;font-size:14.5px;font-weight:700;list-style:none;
+  display:flex;align-items:center;justify-content:space-between;gap:12px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";color:var(--frog);font-size:19px;font-weight:700;line-height:1;
+  transition:transform .2s}
+details[open] summary::after{content:"\2212"}
+details p{padding:0 0 16px;font-size:13.5px;color:var(--text-2)}
+details p a{color:var(--frog);text-decoration:underline;text-underline-offset:3px}
+
+/* 页脚 */
+footer{margin-top:52px;padding:30px 0 36px;border-top:1px solid var(--line);
+  background:rgba(12,14,19,.6)}
+footer p{font-size:12.5px;color:var(--text-3);text-align:center;line-height:1.85}
+footer p+p{margin-top:6px}
+footer a{color:var(--text-2)}
+footer a:hover{color:var(--frog)}
+.foot-links{display:flex;gap:10px 18px;justify-content:center;flex-wrap:wrap;margin-bottom:16px;
+  font-size:13px}
+.foot-links a{color:var(--text-2);transition:color .2s}
+.foot-links a:hover{color:var(--frog)}
+
+@media(max-width:640px){
+  .grid{grid-template-columns:1fr}
+  .addr{padding:22px 18px}
+  .addr-btns .btn{flex:1 1 0;justify-content:center;padding:13px 10px;font-size:14.5px}
+  .brand .name{font-size:16px}
+  .pill{font-size:11.5px;padding:5px 10px}
+  /* 三列表格在窄屏改为堆叠卡片，避免被压缩到不可读 */
+  .tbl{border:none;border-radius:0;overflow:visible;display:flex;flex-direction:column;gap:10px}
+  .tbl table,.tbl tbody{display:block;width:100%}
+  .tbl thead{display:none}
+  .tbl tr{display:block;background:var(--ink-2);border:1px solid var(--line);
+    border-radius:var(--r-md);padding:14px 16px}
+  .tbl td{display:block;border:none;padding:0;font-size:13.5px;line-height:1.6}
+  .tbl td:first-child{font-size:14.5px;font-weight:800;white-space:normal;margin-bottom:7px}
+  .tbl td[data-label]{margin-bottom:3px}
+  .tbl td[data-label]::before{content:attr(data-label) "：";color:var(--text-3);font-size:11.5px;
+    font-weight:600;letter-spacing:.3px}
+}
+@media(prefers-reduced-motion:reduce){
+  *{animation-duration:.01ms!important;transition-duration:.01ms!important}
+}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="top">
+    <div class="top-in">
+      <a class="brand" href="https://manwa.click/" rel="noopener">
+        <img src="assets/logo.png" alt="漫蛙 MANWA" />
+        <span class="name">漫蛙<small>MANWA · 地址发布页</small></span>
+      </a>
+      <span class="pill"><span class="dot"></span>入口有效</span>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>漫蛙最新网址</h1>
+    <p class="sub">官方入口只有一个主域名，<b>固定不变、不按月更换</b>。收藏本页，就不会再走丢。</p>
+
+    <div class="addr">
+      <div class="k">Latest Address</div>
+      <div class="url" id="addr">https://manwa.click/</div>
+      <div class="meta">当前有效 · 核验时间 2026-11-16</div>
+      <div class="addr-btns">
+        <a class="btn btn-primary" href="https://manwa.click/" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></svg>
+          打开漫蛙
+        </a>
+        <button class="btn btn-ghost" id="copyBtn" type="button" data-url="https://manwa.click/">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg>
+          <span id="copyTx">复制网址</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="note">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v5h1"/></svg>
+      <div><b>为什么地址不变？</b>主域名长期稳定，不需要追着“最新”跑。网上那些「2026 年某月最新地址」「备用域名」「镜像站」都不是官方发布的，多由第三方引流站编造。</div>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="sec-head">
+      <h2><span class="bar"></span>常用直达入口</h2>
+      <p>以下入口都在同一主域名下，点开即达。</p>
+    </div>
+    <div class="grid">
+      <a class="card" href="https://manwa.click/manwa-web.html" target="_blank" rel="noopener">
+        <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 3 2.5 15 0 18M12 3c-2.5 3-2.5 15 0 18"/></svg></span>
+        <span class="tx"><b>网页版直接阅读</b><span>免安装，手机电脑都能开</span></span>
+        <span class="arrow">›</span>
+      </a>
+      <a class="card" href="https://manwa.click/download.html" target="_blank" rel="noopener">
+        <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12"/><path d="m7 11 5 5 5-5"/><path d="M4 21h16"/></svg></span>
+        <span class="tx"><b>APP 下载</b><span>安卓与 iOS 安装包入口</span></span>
+        <span class="arrow">›</span>
+      </a>
+      <a class="card" href="https://manwa.click/android-install.html" target="_blank" rel="noopener">
+        <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span>
+        <span class="tx"><b>安卓安装教程</b><span>未知来源授权、安装报错</span></span>
+        <span class="arrow">›</span>
+      </a>
+      <a class="card" href="https://manwa.click/ios-install.html" target="_blank" rel="noopener">
+        <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 3c-1 1.5-1.5 2.5-1.5 4 0 1.6.8 2.7 1.8 3.4-1 2-2.6 4.4-4 5.9-1 1-2 1.6-2.8 1.6-.9 0-1.4-.5-2.6-.5s-1.9.5-2.7.5C3 18 1 15 1 11.6 1 8 3.3 6 5.5 6c1.1 0 2.1.6 2.9.6.7 0 1.8-.7 3.1-.7.7 0 2.2.1 3.3 1.2"/><path d="M14 3c0 1.4-.6 2.7-1.5 3.6"/></svg></span>
+        <span class="tx"><b>iOS 安装说明</b><span>描述文件信任与闪退处理</span></span>
+        <span class="arrow">›</span>
+      </a>
+      <a class="card" href="https://manwa.click/cannot-open.html" target="_blank" rel="noopener">
+        <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 20h20L12 3Z"/><path d="M12 9v5M12 17h.01"/></svg></span>
+        <span class="tx"><b>打不开怎么办</b><span>白屏、加载失败、报错排查</span></span>
+        <span class="arrow">›</span>
+      </a>
+      <a class="card" href="https://manwa.click/manwa-address.html" target="_blank" rel="noopener">
+        <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.3 7-11a7 7 0 1 0-14 0c0 4.7 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+        <span class="tx"><b>最新地址与防走失</b><span>三步核验法、仿冒站辨别</span></span>
+        <span class="arrow">›</span>
+      </a>
+      <a class="card" href="https://manwa.click/tutorial.html" target="_blank" rel="noopener">
+        <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5a2 2 0 0 1 2-2h13v18H6a2 2 0 0 1-2-2Z"/><path d="M9 7h6M9 11h6"/></svg></span>
+        <span class="tx"><b>使用教程</b><span>从打开到收藏的完整流程</span></span>
+        <span class="arrow">›</span>
+      </a>
+      <a class="card" href="https://manwa.click/faq.html" target="_blank" rel="noopener">
+        <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.6 2.6 0 0 1 5 .8c0 1.7-2.5 2-2.5 3.7"/><path d="M12 17.5h.01"/></svg></span>
+        <span class="tx"><b>常见问题</b><span>账号、缓存、跨设备同步</span></span>
+        <span class="arrow">›</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="sec-head">
+      <h2><span class="bar"></span>主域名打不开时，按顺序试这四步</h2>
+      <p>九成以上是本地网络或浏览器缓存问题，不是站点下线。</p>
+    </div>
+    <div class="steps">
+      <div class="step"><span class="no"></span><div><b>清一次浏览器缓存再刷新</b><p>电脑按 Ctrl+Shift+R（Mac 为 Cmd+Shift+R）强制刷新，或换一个浏览器打开同一地址。</p></div></div>
+      <div class="step"><span class="no"></span><div><b>切换网络</b><p>Wi-Fi 与移动数据互换一次，或关掉代理后重试。若只有某个网络不通，多半是当地线路问题。</p></div></div>
+      <div class="step"><span class="no"></span><div><b>手动输入域名</b><p>在地址栏直接敲 <b>manwa.click</b>，不要从搜索结果、聊天记录里的短链条点进来，避免被跳转到仿冒页。</p></div></div>
+      <div class="step"><span class="no"></span><div><b>仍然不通就隔几小时再看</b><p>临时性线路波动通常几十分钟到数小时内自行恢复。本页长期保留，随时可以回来复查。</p></div></div>
+    </div>
+    <div class="note warn">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 20h20L12 3Z"/><path d="M12 9v5M12 17h.01"/></svg>
+      <div><b>别去搜“漫蛙最新地址发布”找入口。</b>搜索结果里排在前面的往往是搬运站、跳转站或带捆绑下载的仿冒站，它们会记录你的点击、植入广告，甚至诱导安装来路不明的安装包。认准主域名即可。</div>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="sec-head">
+      <h2><span class="bar"></span>三步防走失</h2>
+      <p>做完这三件事，以后就不需要再找地址了。</p>
+    </div>
+    <div class="steps">
+      <div class="step"><span class="no"></span><div><b>收藏本页</b><p>本页不依赖主域名，即使主站临时不通也能打开，是最后的兜底入口。</p></div></div>
+      <div class="step"><span class="no"></span><div><b>把主域名记成一条字符串</b><p>记 <b>manwa.click</b> 这九个字符，比记任何“最新地址”都可靠——它本来就不会变。</p></div></div>
+      <div class="step"><span class="no"></span><div><b>只用网页版或官方安装包</b><p>网页版免安装、不做本地写入；要装 APP 时只从主站的下载页取包，不从第三方站点下载。</p></div></div>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="sec-head">
+      <h2><span class="bar"></span>怎么判断是不是仿冒站</h2>
+      <p>照着下面几条对一遍，基本不会走错。</p>
+    </div>
+    <div class="tbl">
+      <table>
+        <thead><tr><th>看什么</th><th>正常入口</th><th>仿冒站常见特征</th></tr></thead>
+        <tbody>
+          <tr>
+            <td>域名</td>
+            <td class="ok" data-label="正常入口">manwa.click</td>
+            <td class="no2" data-label="仿冒特征">多一个字母、换后缀、加连字符（如 manwa-xx.cc）</td>
+          </tr>
+          <tr>
+            <td>安装包</td>
+            <td class="ok" data-label="正常入口">只在主站下载页提供</td>
+            <td class="no2" data-label="仿冒特征">弹窗塞“高速下载器”、捆绑其它软件</td>
+          </tr>
+          <tr>
+            <td>页面行为</td>
+            <td class="ok" data-label="正常入口">可正常浏览，登录自愿</td>
+            <td class="no2" data-label="仿冒特征">强制跳转、要求填手机号或支付才能看</td>
+          </tr>
+          <tr>
+            <td>发布方式</td>
+            <td class="ok" data-label="正常入口">地址固定，不做“每日更新”</td>
+            <td class="no2" data-label="仿冒特征">天天喊“最新地址已更新”、批量刷短链</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="sec-head">
+      <h2><span class="bar"></span>常见问题</h2>
+    </div>
+    <div class="faq">
+      <details open>
+        <summary>这个页面是官方维护的吗？</summary>
+        <p>是。本页由站点维护者自行维护，唯一作用就是公布入口地址，方便用户收藏与复查。它不承载漫画内容，也不提供任何下载直链。</p>
+      </details>
+      <details>
+        <summary>地址真的不会变吗？会不会哪天换了？</summary>
+        <p>主域名长期稳定，目前没有更换计划。即便将来有变动，也会先在主站公告，而不是通过来路不明的短链通知。所以本页的价值在于：<b>你永远可以从这里核对到当前有效地址</b>，而不是靠记忆。</p>
+      </details>
+      <details>
+        <summary>有备用域名或镜像站吗？</summary>
+        <p>没有。官方不运营备用域名，也不会授权第三方做镜像。任何自称“官方备用入口”“官方镜像”的站点都不是官方发布的，请勿输入账号密码。</p>
+      </details>
+      <details>
+        <summary>一定要装 APP 吗？</summary>
+        <p>不需要。想免安装直接看，用<a href="https://manwa.click/manwa-web.html" target="_blank" rel="noopener">网页版</a>即可；想要离线缓存、更新提醒再装 APP。两边内容一致，详见<a href="https://manwa.click/read-online-vs-app.html" target="_blank" rel="noopener">网页版和 APP 怎么选</a>。</p>
+      </details>
+      <details>
+        <summary>换手机或换电脑，阅读进度还在吗？</summary>
+        <p>登录同一账号后进度会同步，换设备接着读就行。具体说明见主站<a href="https://manwa.click/faq.html" target="_blank" rel="noopener">常见问题</a>。</p>
+      </details>
+      <details>
+        <summary>为什么这个页面没有被搜索引擎收录？</summary>
+        <p>本页设置了 <code>noindex</code>，只作为收藏用的兜底入口，不与主站争排名。你把它加进浏览器书签或手机桌面，用起来和普通网页没有区别。</p>
+      </details>
+    </div>
+  </section>
+
+  <footer>
+    <div class="foot-links">
+      <a href="https://manwa.click/" target="_blank" rel="noopener">主站首页</a>
+      <a href="https://manwa.click/manwa-web.html" target="_blank" rel="noopener">网页版</a>
+      <a href="https://manwa.click/download.html" target="_blank" rel="noopener">APP 下载</a>
+      <a href="https://manwa.click/about.html" target="_blank" rel="noopener">关于本站</a>
+    </div>
+    <p>本页为漫蛙 MANWA 地址发布页，仅用于公布与核对官方入口，不存储、不上传、不分发任何漫画内容。</p>
+    <p>请勿将本页链接用于商业推广；如发现仿冒站点，欢迎通过主站反馈渠道告知。核验时间 2026-11-16。</p>
+  </footer>
+</div>
+
+<script>
+(function(){
+  var btn = document.getElementById('copyBtn');
+  var tx  = document.getElementById('copyTx');
+  if(!btn || !tx) return;
+  var url = btn.getAttribute('data-url');
+  var timer = null;
+
+  function done(ok){
+    tx.textContent = ok ? '已复制' : '请手动复制';
+    btn.classList.toggle('copied', ok);
+    clearTimeout(timer);
+    timer = setTimeout(function(){
+      tx.textContent = '复制网址';
+      btn.classList.remove('copied');
+    }, 1800);
+  }
+
+  function fallback(){
+    var ta = document.createElement('textarea');
+    ta.value = url;
+    ta.setAttribute('readonly','');
+    ta.style.cssText = 'position:fixed;left:-9999px;top:0;opacity:0';
+    document.body.appendChild(ta);
+    ta.select();
+    ta.setSelectionRange(0, url.length);
+    var ok = false;
+    try { ok = document.execCommand('copy'); } catch(e){ ok = false; }
+    document.body.removeChild(ta);
+    done(ok);
+  }
+
+  btn.addEventListener('click', function(){
+    if(navigator.clipboard && window.isSecureContext){
+      navigator.clipboard.writeText(url).then(function(){ done(true); }, fallback);
+    } else {
+      fallback();
+    }
+  });
+})();
+</script>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage",
+ "name":"漫蛙最新网址 · 地址发布页",
+ "url":"https://designshidai.github.io/manwa/",
+ "inLanguage":"zh-CN",
+ "dateModified":"2026-11-16",
+ "description":"漫蛙 MANWA 地址发布页，官方入口 https://manwa.click/ ，固定不按月更换。",
+ "mainEntity":{"@type":"WebSite","name":"漫蛙 MANWA","url":"https://manwa.click/"}}
+</script>
+</body>
+</html>
